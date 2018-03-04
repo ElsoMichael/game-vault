@@ -21,7 +21,7 @@ const { ensureLoggedIn, ensureLoggedOut } = require('connect-ensure-login');
 
 // IDGB API Config
 const igdb = require('igdb-api-node').default;
-const client = igdb('25352be3dff60169e5ff09f019c6dbba');
+const client = igdb(process.env.IGDB_Key);
 
 // Models
 const User = require('./models/user');

@@ -3,7 +3,7 @@ const games = express.Router();
 
 // Api Config
 const igdb = require('igdb-api-node').default;
-const client = igdb('25352be3dff60169e5ff09f019c6dbba');
+const client = igdb(process.env.IGDB_Key);
 
 // Global Var For List and Info
 var list;
