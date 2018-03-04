@@ -6,7 +6,7 @@ const UserGameSchema = new Schema({
   link: { type: String, required: true },
   summary: { type: String, required: true },
   _creator: { type: Schema.Types.ObjectId, ref: 'User', required: true },
-  author: { type: String },
+  author: { type: String, required: true },
   platform: { type: String },
 });
 

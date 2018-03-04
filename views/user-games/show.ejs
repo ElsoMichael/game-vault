@@ -50,7 +50,7 @@
     <% if (info.platform === "") { %>
         <h2 class="text-center color-text-black">Creator: <%= info.author %></h2>
     <% } else { %>
-        <h2 class="text-center color-text-black">Creator: <%= user.username %></h2>
+        <h2 class="text-center color-text-black">Creator: <a class="a-link" href="<%= info.platform %>"><%= info.author %></a></h2>
     <% } %>
 
     <hr>
