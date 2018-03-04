@@ -1,3 +1,4 @@
+require("dotenv").config();
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
@@ -8,14 +9,14 @@ const expressLayouts = require('express-ejs-layouts');
 
 // Mongoose Config
 const mongoose = require("mongoose");
-mongoose.connect("mongodb://localhost/gamereview-local");
+mongoose.connect(process.env.MONGODB_URI);
 
 // Passport Configuration
-const passport           = require('passport');
-const session            = require('express-session');
-const MongoStore         = require('connect-mongo')(session);
-const LocalStrategy      = require('passport-local').Strategy;
-const bcrypt             = require('bcrypt');
+const passport = require('passport');
+const session = require('express-session');
+const MongoStore = require('connect-mongo')(session);
+const LocalStrategy = require('passport-local').Strategy;
+const bcrypt = require('bcrypt');
 const { ensureLoggedIn, ensureLoggedOut } = require('connect-ensure-login');
 
 // IDGB API Config
