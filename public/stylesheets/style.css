@@ -1,0 +1,157 @@
+/* body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+} */
+
+a {
+  color: #00B7FF;
+}
+
+.boarder-box {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 60px;
+  background-color: rgba(255,255,255, .5);
+}
+
+.boarder-view {
+  padding: 5px;
+  border-radius: 50px;
+  background-color: rgba(255,255,255, .4);
+}
+
+.moreSpace {
+  margin-top: 80px;
+}
+
+.smallSpace {
+  margin-top: 30px;
+}
+
+.moreSpaceBottom {
+  margin-bottom: 80px;
+}
+
+.search-background {
+  padding: 90px 0;
+  background-image: url("../images/GameVault_Banner.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% 90%;
+  border-bottom: 5px solid;
+  box-shadow: 0px 4px 10px 0 rgba(22, 22, 22, 0.08);
+}
+
+.games-view-background {
+  padding: 90px 0;
+  background-image: url("../images/GameVault_Banner2.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% 90%;
+  border-bottom: 5px solid;
+  box-shadow: 0px 4px 10px 0 rgba(22, 22, 22, 0.08);
+}
+
+.color-text-black {
+  color: rgb(53, 49, 49);
+}
+
+.color-text-white {
+  color: white;
+}
+
+.background-auth {
+  background-image: url("../images/GameVault_Screen.jpg");
+  background-size: cover;
+}
+
+.container-spacing {
+  margin-top: 100px;
+}
+
+.game-search-spacing {
+  padding: 10px;
+  display: inline;
+}
+
+.game-name {
+  display: inline;
+  padding-left: 20px;
+}
+
+.nav-spacing {
+  padding-right: 10px;
+}
+
+.image-inline-scroll {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 25px;
+  margin: 0 5px;
+}
+
+.background-border {
+  border-radius: 10px;
+  padding: 50px;
+}
+
+.userGameinfo-border {
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.user-game-list {
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 5px;
+  border: 1px solid black;
+  box-shadow: 0px 4px 10px 0 rgba(22, 22, 22, .4);
+}
+
+.img-view {
+  display: flex;
+  flex-flow: row nowrap;
+  overflow-y: scroll;
+}
+
+.edit-buttons {
+  padding-top: 10px;
+  padding-left: 30px;
+}
+
+.edit-buttons > a {
+  color: rgb(53, 49, 49);
+}
+
+.footer {
+  border-top: 5px solid;
+  box-shadow: 0px 4px 10px 0 rgba(22, 22, 22, 0.08);
+  margin: 0;
+  width: 100%;
+  border-radius: 1px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.rounded-img {
+  border-radius: 50%;
+  padding-top: 5px;
+}
+
+.a-link {
+  color: rgb(166, 80, 109); 
+}
+
+.a-link:hover {
+  color: rgb(128, 102, 176); 
+}
+
+.background-black {
+  background-color: rgb(34, 34, 34);
+}
+
+.body-text {
+  font-size: 20px
+}
