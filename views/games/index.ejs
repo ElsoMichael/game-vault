@@ -9,7 +9,7 @@
         <% if(game.cover){%>
 
           <!-- Display The Cover and Name with Link -->
-          <li>
+          <li class="my-game-list">
             <a href="/games/<%= game.id %>"><img src="<%= game.cover.url %>"></a>
             <h4 class="game-name"><a class="a-link" href="/games/<%= game.id %>"><%= game.name %></a></h4>
           </li>

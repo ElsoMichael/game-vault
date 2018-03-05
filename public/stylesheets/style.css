@@ -164,3 +164,7 @@ a {
 .footer-center-padding {
   padding: 0 5px;
 }
+
+.my-game-list {
+  list-style-type: none
+}
