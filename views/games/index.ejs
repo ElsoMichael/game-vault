@@ -4,18 +4,18 @@
     <!-- For all Games -->
     <% list.forEach((game) => { %>
 
-      <!-- That Have Covers -->
-      <% if(game.cover){%>
-
-        <div class="col-sm-12 game-search-spacing">
+      <ul>
+        <!-- That Have Covers -->
+        <% if(game.cover){%>
 
           <!-- Display The Cover and Name with Link -->
-          <a href="/games/<%= game.id %>"><img src="<%= game.cover.url %>"></a>
-          <h4 class="game-name"><a class="a-link" href="/games/<%= game.id %>"><%= game.name %></a></h4>
+          <li>
+            <a href="/games/<%= game.id %>"><img src="<%= game.cover.url %>"></a>
+            <h4 class="game-name"><a class="a-link" href="/games/<%= game.id %>"><%= game.name %></a></h4>
+          </li>
 
-        </div>
-
-      <% } %>
+        <% } %>
+      </ul>
       
     <% }); %>
     
