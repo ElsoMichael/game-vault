@@ -3,7 +3,7 @@
 
 ## Link to My Game
 
-[Game Vault by Michael Elso](https://elsomichael.github.io/spaceInvader-project1/)
+[Game Vault by Michael Elso](https://gamevault-melso.herokuapp.com/)
 
 
 ## What I Used!
